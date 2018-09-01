@@ -8,5 +8,16 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="BotonRojo" parent="Theme.AppCompat.Light" >
+        <item name="android:textColor">@color/colorBlanco</item>
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="colorControlHighlight">#FFFFFF</item>
+    </style>
+
+    <style name="EditTextWhite" parent="TextAppearance.AppCompat">
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorControlNormal">#444</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
 
 </resources>

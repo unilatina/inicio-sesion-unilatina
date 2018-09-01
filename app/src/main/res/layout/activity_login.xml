@@ -34,69 +34,90 @@
 
         </android.support.constraint.ConstraintLayout>
 
-        <LinearLayout
+        <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:paddingHorizontal="20dp"
-            android:layout_weight=".4">
-
-
-            <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <android.support.design.widget.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:inputType="text"
-                    android:hint="Nombre de usuario" />
-
-            </android.support.design.widget.TextInputLayout>
-
-            <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <android.support.design.widget.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:inputType="textPassword"
-                    android:hint="Contraseña" />
-
-            </android.support.design.widget.TextInputLayout>
-
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Ingresar"
-                android:background="@color/colorPrimary"
-                android:textColor="@color/colorBlanco" />
+            android:layout_weight=".4"
+            android:fillViewport="true"
+            >
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:gravity="center">
+                android:orientation="vertical"
+                android:paddingHorizontal="20dp"
+
+                >
 
 
-                <TextView
-                    android:layout_width="wrap_content"
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="¿No tienes cuenta? "/>
+                    android:theme="@style/EditTextWhite"
+                   >
 
-                <TextView
-                    android:layout_width="wrap_content"
+                    <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:textColorHint="@color/colorPrimary"
+                        android:hint="Nombre de usuario" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:text="Crea una aquí"/>
+                    android:theme="@style/EditTextWhite">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:textColorHint="@color/colorPrimary"
+                        android:hint="Contraseña" />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ingresar"
+                    android:theme="@style/BotonRojo"
+                    android:textColor="@color/colorBlanco"
+              />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="¿No tienes cuenta? "
+                        android:textSize="15sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:onClick="irACrearCuenta"
+                        android:text="Crea una aquí"
+                        android:textSize="15sp"/>
+
+
+                </LinearLayout>
 
 
             </LinearLayout>
 
 
-        </LinearLayout>
+        </ScrollView>
 
 
     </LinearLayout>
