@@ -18,4 +18,9 @@ public class LoginActivity extends AppCompatActivity {
         Intent a = new Intent(getApplicationContext(), CrearCuenta.class );
         startActivity(a);
     }
+    public void irAAudio(View view){
+        Intent a = new Intent(getApplicationContext(), AudioActivity.class );
+        startActivity(a);
+    }
+
 }
