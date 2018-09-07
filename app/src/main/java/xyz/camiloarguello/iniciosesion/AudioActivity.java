@@ -1,5 +1,6 @@
 package xyz.camiloarguello.iniciosesion;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -21,5 +22,9 @@ public class AudioActivity extends AppCompatActivity {
     }
     public void pauseSound(View view){
         audio.pause();
+    }
+    public void irAVideo(View view){
+        Intent a = new Intent(this, VideoActivity.class);
+        startActivity(a);
     }
 }

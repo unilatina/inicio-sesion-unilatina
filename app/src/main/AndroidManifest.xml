@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".CrearCuenta" />
-        <activity android:name=".AudioActivity"></activity>
+        <activity android:name=".AudioActivity" />
+        <activity android:name=".VideoActivity" />
+        <activity android:name=".FamiliaActivity"></activity>
     </application>
 
 </manifest>
