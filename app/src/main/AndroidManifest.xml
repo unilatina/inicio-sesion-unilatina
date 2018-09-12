@@ -19,7 +19,8 @@
         <activity android:name=".CrearCuenta" />
         <activity android:name=".AudioActivity" />
         <activity android:name=".VideoActivity" />
-        <activity android:name=".FamiliaActivity"></activity>
+        <activity android:name=".FamiliaActivity" />
+        <activity android:name=".AmigosActivity"></activity>
     </application>
 
 </manifest>

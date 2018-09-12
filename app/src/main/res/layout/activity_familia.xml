@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".FamiliaActivity">
 
-
     <ListView
         android:id="@+id/familia"
         android:layout_width="0dp"
@@ -21,6 +20,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnIrAAmigos"
         app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnIrAAmigos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="16dp"
+        android:onClick="irAAmigos"
+        android:text="Ir a amigos"
+        android:theme="@style/BotonRojo"
+        app:layout_constraintBottom_toTopOf="@+id/familia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
 </android.support.constraint.ConstraintLayout>

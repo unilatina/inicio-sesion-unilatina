@@ -1,7 +1,9 @@
 package xyz.camiloarguello.iniciosesion;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -9,8 +11,6 @@ import java.util.ArrayDeque;
 import java.util.ArrayList;
 
 public class FamiliaActivity extends AppCompatActivity {
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,5 +55,10 @@ public class FamiliaActivity extends AppCompatActivity {
         ArrayAdapter<String> adaptador = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, myFamily);
         listView.setAdapter(adaptador);
 
+    }
+
+    public void irAAmigos(View view){
+        Intent a = new Intent(this,AmigosActivity.class);
+        startActivity(a);
     }
 }
