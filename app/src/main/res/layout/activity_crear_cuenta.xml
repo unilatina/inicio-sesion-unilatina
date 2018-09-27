@@ -44,6 +44,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Email"
+                    android:id="@+id/email_create_account"
                     android:inputType="textEmailAddress"
                     android:textColorHint="@color/colorPrimary"
                      />
@@ -60,6 +61,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Nombre de usuario"
+                    android:id="@+id/nombre_usuario"
                     android:textColorHint="@color/colorPrimary"
                     android:inputType="text"/>
 
@@ -75,6 +77,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Nombre"
+                    android:id="@+id/usuario"
                     android:textColorHint="@color/colorPrimary"
                     android:inputType="text"/>
 
@@ -90,6 +93,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Contraseña"
+                    android:id="@+id/password_crear_cuenta"
                     android:inputType="textPassword"
                     android:textColorHint="@color/colorPrimary"
                     />
@@ -105,6 +109,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Repite la contraseña"
+                    android:id="@+id/repite_pass"
                     android:inputType="textPassword"
                     android:textColorHint="@color/colorPrimary"
                     />
@@ -115,6 +120,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Registrar"
+                android:id="@+id/btn_crear_cuenta"
                 android:theme="@style/BotonRojo"
                 android:layout_weight=".05"/>
 

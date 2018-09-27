@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "705396418912",
+    "firebase_url": "https://inicio-sesion-unilatina.firebaseio.com",
+    "project_id": "inicio-sesion-unilatina",
+    "storage_bucket": "inicio-sesion-unilatina.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705396418912:android:9332e00530e0bbf8",
+        "android_client_info": {
+          "package_name": "xyz.camiloarguello.iniciosesion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705396418912-g0u9sh2rb8v5pet7eoq9nbhms9n5idbq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxwCpml4-so7_OYy_r_Fu6BzLjbQh2DLY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
